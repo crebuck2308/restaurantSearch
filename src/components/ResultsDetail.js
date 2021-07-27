@@ -1,5 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
+
+
 const ResultsDetail = ({ result }) => {
     return (
         <View style={styles.container}>
@@ -9,6 +11,7 @@ const ResultsDetail = ({ result }) => {
         </View>
     );
 };
+
 const styles = StyleSheet.create({
     container: {
         marginLeft: 15
